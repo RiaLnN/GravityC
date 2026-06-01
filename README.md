@@ -4,7 +4,8 @@ A lightweight, high-performance 2D orbital mechanics and gravity simulation writ
 
 ## Features
 * **N-Body Gravity Simulation:** Uses Newton's law of universal gravitation to calculate interactions between all bodies simultaneously ($O(N^2)$ complexity).
-* **Perfect Inelastic Collisions:** When two celestial bodies collide, they merge into a single body conserving total momentum and dynamically recalculating the new radius based on combined volume. $$m_{1} \vec{v}_{1} + m_{2} \vec{v}_{2} = m_{total} \vec{v}_{new}$$
+* **Perfect Inelastic Collisions:** When two celestial bodies collide, they merge into a single body conserving total momentum and dynamically recalculating the new radius based on combined volume.
+$$m_{1} \vec{v}_{1} + m_{2} \vec{v}_{2} = m_{total} \vec{v}_{new}$$
 * **Custom Pixel-Buffer Renderer:** Instead of using standard SDL shapes, the engine directly manipulates a raw XRGB8888 pixel buffer for high-performance software rendering.
 * **Pre-configured Scenarios:** Includes presets for the Solar System, random particle chaos, and a Saturn-like planetary ring system.
 
